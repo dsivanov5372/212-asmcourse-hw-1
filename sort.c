@@ -173,7 +173,7 @@ int main(void) {
         array_check(arr, bubble_array, size); //проверяем, что массив, отсортированный пузырьком - исходный массив
 
         shell_sort(shell_array, size); //сортировка методом Шелла
-        array_check(arr, bubble_array, size); //проверяем, что массив, отсортированный пузырьком - исходный массив
+        array_check(arr, bubble_array, size); //проверяем, что массив, отсортированный методом шелла - исходный массив
         printf("\n");
     }
 
